@@ -3,12 +3,12 @@ package application;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.entiites.Animal;
 import model.entiites.Cachorro;
 import model.entiites.Gato;
 import model.entiites.Jacare;
-import model.entiites.Organizador;
-import model.services.Animal;
-import model.services.Resultado;
+import model.entiites.Resultado;
+import model.services.Organizador;
 
 public class Program {
 
@@ -37,9 +37,6 @@ public class Program {
 
 	public static Resultado[] obterResult(Animal[] vetorA, Organizador org) {
 
-		Resultado r = new Resultado(null, 0);
-
-		List<Resultado> listResultado = new ArrayList();
 		List<String> nomeEspecieTodosAnimais = new ArrayList();
 
 		String[] vectTeste = org.classificaEspecies(vetorA);

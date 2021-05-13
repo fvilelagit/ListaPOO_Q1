@@ -1,4 +1,4 @@
-package model.services;
+package model.entiites;
 
 public interface Animal {
 	public String getNomeEspecie();

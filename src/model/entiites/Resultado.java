@@ -1,9 +1,7 @@
-package model.services;
+package model.entiites;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import model.entiites.Organizador;
 
 public class Resultado {
 

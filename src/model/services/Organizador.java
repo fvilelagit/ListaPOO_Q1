@@ -1,10 +1,9 @@
-package model.entiites;
+package model.services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.services.Animal;
-import model.services.Ferramentas;
+import model.entiites.Animal;
 
 public class Organizador implements Ferramentas{
 

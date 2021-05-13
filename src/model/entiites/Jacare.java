@@ -1,7 +1,5 @@
 package model.entiites;
 
-import model.services.Animal;
-
 public class Jacare implements Animal {
 
 	String nomeEspecie;
